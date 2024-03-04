@@ -3,7 +3,7 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.001,
+        "board_outline_line_width": 0.049999999999999996,
         "copper_line_width": 0.09999999999999999,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -852,6 +852,22 @@
     [
       "994820bf-9e2d-4c1b-8cdf-e9baf8707794",
       ""
+    ],
+    [
+      "53cb442b-752e-4b92-ae97-9542b4720982",
+      "Capacitor Bank"
+    ],
+    [
+      "65afcf9b-32a3-4ef0-8354-6a9f3a5ab200",
+      "Half Bridge U"
+    ],
+    [
+      "5acbbc5f-2416-4b61-8e6b-a2f3458fa456",
+      "Half Bridge W"
+    ],
+    [
+      "eb4c094f-38d5-4c8e-a443-3cfe5211fcc9",
+      "Half Bridge V"
     ]
   ],
   "text_variables": {}
