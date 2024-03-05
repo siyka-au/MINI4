@@ -642,6 +642,9 @@
   (junction (at 96.52 72.39) (diameter 0) (color 0 0 0 0)
     (uuid 39c8ac84-6368-4b7a-baf4-a28cc839ea07)
   )
+  (junction (at 261.62 93.98) (diameter 0) (color 0 0 0 0)
+    (uuid 3cce7665-8a9b-4cbc-a03d-b5d2ab3c11f1)
+  )
   (junction (at 236.22 83.82) (diameter 0) (color 0 0 0 0)
     (uuid 476e7abf-7a68-4a9a-bbf2-9a5afc91b782)
   )
@@ -731,6 +734,10 @@
     (stroke (width 0) (type default))
     (uuid 39e89e2c-1a7c-4b5a-9f08-2af9c4c66806)
   )
+  (wire (pts (xy 261.62 105.41) (xy 261.62 107.95))
+    (stroke (width 0) (type default))
+    (uuid 3aa210f0-9404-4fe9-a9e8-3c71836d2648)
+  )
   (wire (pts (xy 228.6 83.82) (xy 228.6 81.28))
     (stroke (width 0) (type default))
     (uuid 3ed22caa-5c15-471a-9c33-a59701cfa65c)
@@ -762,6 +769,10 @@
   (wire (pts (xy 91.44 68.58) (xy 99.06 68.58))
     (stroke (width 0) (type default))
     (uuid 5d1daf9c-29e9-44dd-9457-b4799ca250f4)
+  )
+  (wire (pts (xy 261.62 93.98) (xy 256.54 93.98))
+    (stroke (width 0) (type default))
+    (uuid 5ff97ce6-e080-4818-afdf-4437aee9539e)
   )
   (wire (pts (xy 198.12 100.33) (xy 198.12 102.87))
     (stroke (width 0) (type default))
@@ -795,10 +806,6 @@
     (stroke (width 0) (type default))
     (uuid 78fcdaac-3526-4d1e-b2ae-c29411b330ac)
   )
-  (wire (pts (xy 242.57 93.98) (xy 254 93.98))
-    (stroke (width 0) (type default))
-    (uuid 7ef0611e-baf8-4d9c-9458-c62768d118da)
-  )
   (wire (pts (xy 219.71 96.52) (xy 219.71 99.06))
     (stroke (width 0) (type default))
     (uuid 7f0fe570-d85b-46c2-a406-8b376cca67e8)
@@ -819,6 +826,10 @@
     (stroke (width 0) (type default))
     (uuid 9133fbbf-8116-47c3-9a2f-ccb1827ac0e2)
   )
+  (wire (pts (xy 261.62 93.98) (xy 265.43 93.98))
+    (stroke (width 0) (type default))
+    (uuid 939d3c61-65cc-4ff9-8308-860a39eec115)
+  )
   (wire (pts (xy 138.43 77.47) (xy 163.83 77.47))
     (stroke (width 0) (type default))
     (uuid 95141360-ebcc-44c9-8852-419dd8278390)
@@ -831,9 +842,17 @@
     (stroke (width 0) (type default))
     (uuid 9d6e78b9-61ae-4db4-90ec-e9614e7eba31)
   )
+  (wire (pts (xy 242.57 93.98) (xy 248.92 93.98))
+    (stroke (width 0) (type default))
+    (uuid a61d56d8-0e41-441b-a188-57dcfa39febc)
+  )
   (wire (pts (xy 125.73 85.09) (xy 144.78 85.09))
     (stroke (width 0) (type default))
     (uuid a8a0ad17-b6ac-4ee3-8602-4344146933e4)
+  )
+  (wire (pts (xy 261.62 93.98) (xy 261.62 97.79))
+    (stroke (width 0) (type default))
+    (uuid aed06fa1-3b60-4933-9d74-5ac1e71bac3b)
   )
   (wire (pts (xy 125.73 80.01) (xy 125.73 85.09))
     (stroke (width 0) (type default))
@@ -928,13 +947,45 @@
     (effects (font (size 1.524 1.524)) (justify right))
     (uuid 33ae2efb-df68-448d-8e19-e9552867b3b1)
   )
-  (hierarchical_label "I_{sense}" (shape input) (at 254 93.98 0) (fields_autoplaced)
+  (hierarchical_label "I_{sense}" (shape input) (at 265.43 93.98 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left))
     (uuid f1bc7c09-75da-44e8-9750-eb55862cfecf)
   )
   (hierarchical_label "High" (shape input) (at 91.44 63.5 180) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right))
     (uuid f8b6682f-5271-4217-8353-c73676cd7fc9)
+  )
+
+  (symbol (lib_id "Device:R") (at 252.73 93.98 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 034e94fd-faca-4c8c-874e-1f7b645b6f9f)
+    (property "Reference" "R2" (at 252.73 93.98 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100R" (at 252.73 96.52 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 252.73 95.758 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 252.73 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid edbe11b2-7580-468a-ba38-ca482089c98e))
+    (pin "2" (uuid 748070ed-47e7-4e4b-b02d-c020889b17a0))
+    (instances
+      (project "MINI VESC"
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/65afcf9b-32a3-4ef0-8354-6a9f3a5ab200"
+          (reference "R2") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "R3") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
+          (reference "R8") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:R") (at 148.59 69.85 270) (unit 1)
@@ -962,6 +1013,9 @@
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
           (reference "R1") (unit 1)
         )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "R1") (unit 1)
+        )
       )
     )
   )
@@ -987,6 +1041,12 @@
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/65afcf9b-32a3-4ef0-8354-6a9f3a5ab200"
           (reference "#PWR09") (unit 1)
         )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "#PWR09") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
+          (reference "#PWR09") (unit 1)
+        )
       )
     )
   )
@@ -994,7 +1054,7 @@
   (symbol (lib_id "MINI VESC-rescue:LM5001-RESCUE-MINI_VESC") (at 110.49 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a97b17e-b4cd-42fc-88c3-37f141f2509c)
-    (property "Reference" "U1" (at 110.49 82.55 0)
+    (property "Reference" "U1" (at 105.41 86.36 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "LM5113SDE" (at 110.49 59.69 0)
@@ -1022,6 +1082,40 @@
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
           (reference "U1") (unit 1)
         )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Power:VSS") (at 261.62 107.95 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3196a5bf-7000-4a01-9f1f-11df0c0f8e2f)
+    (property "Reference" "#PWR01" (at 261.62 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VSS" (at 261.62 111.76 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 261.62 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 261.62 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 349afb3f-12ba-4307-bb67-8ac68c4290ed))
+    (instances
+      (project "MINI VESC"
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/65afcf9b-32a3-4ef0-8354-6a9f3a5ab200"
+          (reference "#PWR01") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "#PWR02") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
+          (reference "#PWR03") (unit 1)
+        )
       )
     )
   )
@@ -1035,7 +1129,7 @@
     (property "Value" "AD8417" (at 240.03 102.87 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "kicad_subory:MSOP" (at 233.68 102.87 0)
+    (property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm" (at 233.68 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8417.pdf" (at 248.92 111.76 0)
@@ -1091,6 +1185,9 @@
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
           (reference "R7") (unit 1)
         )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "R7") (unit 1)
+        )
       )
     )
   )
@@ -1116,6 +1213,12 @@
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/65afcf9b-32a3-4ef0-8354-6a9f3a5ab200"
           (reference "#PWR012") (unit 1)
         )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "#PWR012") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
+          (reference "#PWR012") (unit 1)
+        )
       )
     )
   )
@@ -1139,6 +1242,12 @@
     (instances
       (project "MINI VESC"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/65afcf9b-32a3-4ef0-8354-6a9f3a5ab200"
+          (reference "#PWR08") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "#PWR08") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
           (reference "#PWR08") (unit 1)
         )
       )
@@ -1168,6 +1277,9 @@
           (reference "R12") (unit 1)
         )
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
+          (reference "R12") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
           (reference "R12") (unit 1)
         )
       )
@@ -1200,6 +1312,9 @@
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
           (reference "Q2") (unit 1)
         )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "Q2") (unit 1)
+        )
       )
     )
   )
@@ -1228,6 +1343,41 @@
         )
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
           (reference "R13") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "R13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 261.62 101.6 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8177fa1d-f328-4955-9911-63ca78439524)
+    (property "Reference" "C2" (at 261.62 99.06 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "4.7nF" (at 264.16 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 260.6548 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 261.62 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid ed825025-641d-4aa3-8cea-0d7d0083090c))
+    (pin "1" (uuid 8c011915-c346-4ce2-99ca-91e133ff51ca))
+    (instances
+      (project "MINI VESC"
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/65afcf9b-32a3-4ef0-8354-6a9f3a5ab200"
+          (reference "C2") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "C3") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -1258,6 +1408,9 @@
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
           (reference "C6") (unit 1)
         )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "C6") (unit 1)
+        )
       )
     )
   )
@@ -1283,6 +1436,12 @@
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/65afcf9b-32a3-4ef0-8354-6a9f3a5ab200"
           (reference "#PWR015") (unit 1)
         )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "#PWR015") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
+          (reference "#PWR015") (unit 1)
+        )
       )
     )
   )
@@ -1306,6 +1465,12 @@
     (instances
       (project "MINI VESC"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/65afcf9b-32a3-4ef0-8354-6a9f3a5ab200"
+          (reference "#PWR014") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "#PWR014") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
           (reference "#PWR014") (unit 1)
         )
       )
@@ -1338,6 +1503,9 @@
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
           (reference "Q1") (unit 1)
         )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "Q1") (unit 1)
+        )
       )
     )
   )
@@ -1364,6 +1532,9 @@
           (reference "P1") (unit 1)
         )
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
+          (reference "P1") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
           (reference "P1") (unit 1)
         )
       )
@@ -1395,6 +1566,9 @@
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
           (reference "C1") (unit 1)
         )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "C1") (unit 1)
+        )
       )
     )
   )
@@ -1421,6 +1595,9 @@
           (reference "P4") (unit 1)
         )
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
+          (reference "P4") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
           (reference "P4") (unit 1)
         )
       )
@@ -1452,6 +1629,9 @@
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
           (reference "C9") (unit 1)
         )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "C9") (unit 1)
+        )
       )
     )
   )
@@ -1475,6 +1655,12 @@
     (instances
       (project "MINI VESC"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/65afcf9b-32a3-4ef0-8354-6a9f3a5ab200"
+          (reference "#PWR07") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "#PWR07") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
           (reference "#PWR07") (unit 1)
         )
       )
@@ -1506,6 +1692,9 @@
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
           (reference "R6") (unit 1)
         )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "R6") (unit 1)
+        )
       )
     )
   )
@@ -1529,6 +1718,12 @@
     (instances
       (project "MINI VESC"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/65afcf9b-32a3-4ef0-8354-6a9f3a5ab200"
+          (reference "#PWR013") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/5acbbc5f-2416-4b61-8e6b-a2f3458fa456"
+          (reference "#PWR013") (unit 1)
+        )
+        (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/eb4c094f-38d5-4c8e-a443-3cfe5211fcc9"
           (reference "#PWR013") (unit 1)
         )
       )
