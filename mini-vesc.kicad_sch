@@ -788,110 +788,6 @@
         )
       )
     )
-    (symbol "Power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+5V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+5V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+5V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Power:VAA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VAA" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VAA\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VAA_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "VAA_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VAA" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -944,7 +840,111 @@
         )
       )
     )
-    (symbol "Power:VDD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+5V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+5V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+5V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+5V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:VAA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "VAA" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"VAA\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VAA_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "VAA_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "VAA" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:VDD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -996,7 +996,7 @@
         )
       )
     )
-    (symbol "Power:VSS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:VSS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -2654,7 +2654,7 @@
     (pin "8" (uuid aa0934e5-4fbb-45d0-8d2e-480a79358e93))
     (pin "9" (uuid 333ecd38-c23f-449a-a34c-e66c749073c2))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "U7") (unit 1)
         )
@@ -2680,7 +2680,7 @@
     (pin "1" (uuid bc57de16-d31c-4be4-b8dd-0184ff55422a))
     (pin "2" (uuid fe61ed4a-55fa-41a7-b2b9-fd3c5c0c7d0f))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "R4") (unit 1)
         )
@@ -2706,7 +2706,7 @@
     (pin "1" (uuid c2105f36-2be5-416b-971e-590f9e5d4caa))
     (pin "2" (uuid bc2bfeaf-e226-466a-b6b0-411e31a5341a))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "R5") (unit 1)
         )
@@ -2714,7 +2714,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 91.44 186.69 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 91.44 186.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000058998a7b)
     (property "Reference" "#PWR024" (at 91.44 182.88 0)
@@ -2731,7 +2731,7 @@
     )
     (pin "1" (uuid d9147f4e-b39c-4fcb-900c-6506ebd4c321))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR024") (unit 1)
         )
@@ -2739,7 +2739,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VDD") (at 91.44 166.37 0) (unit 1)
+  (symbol (lib_id "power:VDD") (at 91.44 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000589995ee)
     (property "Reference" "#PWR025" (at 91.44 170.18 0)
@@ -2756,7 +2756,7 @@
     )
     (pin "1" (uuid 4565d22a-d832-4c4b-b536-77cfaaf4a185))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR025") (unit 1)
         )
@@ -2781,7 +2781,7 @@
     )
     (pin "1" (uuid c5c96af2-a811-4e84-a1ef-5fe78ba9a476))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR026") (unit 1)
         )
@@ -2789,7 +2789,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 270.51 102.87 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 270.51 102.87 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000589a2cdd)
     (property "Reference" "#PWR027" (at 270.51 99.06 0)
@@ -2806,7 +2806,7 @@
     )
     (pin "1" (uuid 2537ca3b-81e4-4d83-885c-4ee440925d1a))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR027") (unit 1)
         )
@@ -2831,7 +2831,7 @@
     )
     (pin "1" (uuid 6864a417-4968-4719-80ad-470de6c35231))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR028") (unit 1)
         )
@@ -2857,7 +2857,7 @@
     (pin "2" (uuid aafa3442-958e-415e-bd0a-59dac9e452b3))
     (pin "1" (uuid 54a43c35-0bb8-466a-8249-0f20b834b108))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C19") (unit 1)
         )
@@ -2883,7 +2883,7 @@
     (pin "1" (uuid 812b5872-5b72-48a0-ad6e-fd468f124a39))
     (pin "2" (uuid 5a3dc59c-4cc5-4166-b45c-866045a76a16))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C21") (unit 1)
         )
@@ -2909,7 +2909,7 @@
     (pin "1" (uuid 5cc44e18-98b1-41a4-baa2-8f5f6ca5a0fd))
     (pin "2" (uuid fea2b230-aae5-42ea-b391-2d852f94ef82))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C17") (unit 1)
         )
@@ -2935,7 +2935,7 @@
     (pin "1" (uuid addeb361-ef94-4890-8dc1-d6f9f03f74be))
     (pin "2" (uuid c1f99104-f2fe-4a78-9e2a-5f61f8bab8d0))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C18") (unit 1)
         )
@@ -2943,7 +2943,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 279.4 132.08 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 279.4 132.08 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000589a62bb)
     (property "Reference" "#PWR029" (at 279.4 128.27 0)
@@ -2960,7 +2960,7 @@
     )
     (pin "1" (uuid fd475a81-894e-468c-9e7e-223a97859300))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR029") (unit 1)
         )
@@ -2986,7 +2986,7 @@
     (pin "1" (uuid 7ff21c4a-a26f-4572-8726-da642bf872a2))
     (pin "2" (uuid eef73b58-d64d-48bb-a830-a90c0605f00c))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C20") (unit 1)
         )
@@ -2994,7 +2994,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 278.13 54.61 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 278.13 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000589a8138)
     (property "Reference" "#PWR030" (at 278.13 50.8 0)
@@ -3011,7 +3011,7 @@
     )
     (pin "1" (uuid 9af93087-cbe3-491e-824a-e138b9c775fe))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR030") (unit 1)
         )
@@ -3041,7 +3041,7 @@
     (pin "5" (uuid d7d224a2-4224-445c-ae39-d7b27b178842))
     (pin "6" (uuid 995dd66c-9660-4bff-9367-f999a01d4752))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "U8") (unit 1)
         )
@@ -3067,7 +3067,7 @@
     (pin "1" (uuid 561f906b-320e-4b47-89fc-4fcd661f28ae))
     (pin "2" (uuid ee5364ad-2d9c-41e6-8d80-c54abb7c58cf))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C23") (unit 1)
         )
@@ -3093,7 +3093,7 @@
     (pin "2" (uuid a9c4d556-a482-4907-816f-786ab31db87b))
     (pin "1" (uuid 92d6a543-f15c-4c1f-bc3e-6dcb481c9e08))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C24") (unit 1)
         )
@@ -3119,7 +3119,7 @@
     (pin "1" (uuid 482c2fb9-edca-427e-b82a-50f91b6ab77c))
     (pin "2" (uuid c4ac7674-0503-4d04-bc82-8fd9b8fc237b))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C25") (unit 1)
         )
@@ -3145,7 +3145,7 @@
     (pin "1" (uuid 4f90651f-5331-481c-a473-6ce0264e58ca))
     (pin "2" (uuid 15c5bf99-c92c-4cdd-b4cb-0611fd35ce43))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "D1") (unit 1)
         )
@@ -3153,7 +3153,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 74.93 186.69 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 74.93 186.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000589c0f15)
     (property "Reference" "#PWR034" (at 74.93 182.88 0)
@@ -3170,7 +3170,7 @@
     )
     (pin "1" (uuid 537a06e8-e2a8-4212-9a2a-2760011a848e))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR034") (unit 1)
         )
@@ -3178,7 +3178,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 83.82 186.69 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 83.82 186.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000589c0fef)
     (property "Reference" "#PWR035" (at 83.82 182.88 0)
@@ -3195,7 +3195,7 @@
     )
     (pin "1" (uuid e4edbfd0-3cff-454a-bfb1-5d56a3edec6d))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR035") (unit 1)
         )
@@ -3203,7 +3203,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 58.42 186.69 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 58.42 186.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000589c159c)
     (property "Reference" "#PWR036" (at 58.42 182.88 0)
@@ -3220,7 +3220,7 @@
     )
     (pin "1" (uuid 5a910208-f283-40c6-ab29-4eedf204e6bb))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR036") (unit 1)
         )
@@ -3228,7 +3228,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 26.67 165.1 90) (unit 1)
+  (symbol (lib_id "power:VSS") (at 26.67 165.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000589c2135)
     (property "Reference" "#PWR037" (at 30.48 165.1 0)
@@ -3245,7 +3245,7 @@
     )
     (pin "1" (uuid 961c9468-cd0e-45a3-96fc-4a224728a51e))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR037") (unit 1)
         )
@@ -3253,7 +3253,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VDD") (at 59.69 166.37 0) (unit 1)
+  (symbol (lib_id "power:VDD") (at 59.69 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000589c3791)
     (property "Reference" "#PWR038" (at 59.69 170.18 0)
@@ -3270,7 +3270,7 @@
     )
     (pin "1" (uuid ed71aadc-b9e1-4aaf-9166-aa32a1c193a0))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR038") (unit 1)
         )
@@ -3278,7 +3278,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 20.32 187.96 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 20.32 187.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000589c5328)
     (property "Reference" "#PWR039" (at 20.32 184.15 0)
@@ -3295,7 +3295,7 @@
     )
     (pin "1" (uuid 1e1c65e4-dc01-4ea0-9cf6-52bdca095b81))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR039") (unit 1)
         )
@@ -3321,7 +3321,7 @@
     (pin "1" (uuid db81b6f8-f378-4514-9be9-bd9e6e261b14))
     (pin "2" (uuid b1ae47f4-f422-4095-95d0-f6c55854a271))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "R22") (unit 1)
         )
@@ -3347,7 +3347,7 @@
     (pin "1" (uuid 9fe5844f-14ab-458e-9b1e-df3b560398a3))
     (pin "2" (uuid 9245da2b-d654-4670-9853-f078f14d13a8))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "R21") (unit 1)
         )
@@ -3373,7 +3373,7 @@
     (pin "1" (uuid c634a83d-74f4-44b3-aea7-78de97d2e351))
     (pin "2" (uuid 751c9e1b-e3f4-4123-b7ed-c0b7140939dd))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "R25") (unit 1)
         )
@@ -3399,7 +3399,7 @@
     (pin "2" (uuid 1af671ec-3251-4b4c-a419-7c2ee9a0d88f))
     (pin "1" (uuid c1512b49-5d03-426f-b26f-745ca44d4abe))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "R27") (unit 1)
         )
@@ -3407,7 +3407,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 271.78 158.75 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 271.78 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000058aa8bc7)
     (property "Reference" "#PWR040" (at 271.78 154.94 0)
@@ -3424,7 +3424,7 @@
     )
     (pin "1" (uuid 3d5de799-c4b8-4cc4-9a29-1757bc4e2318))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR040") (unit 1)
         )
@@ -3454,7 +3454,7 @@
     (pin "6" (uuid 2a31e718-04cf-4b2a-b132-7be87374b24a))
     (pin "1" (uuid 35bbbde1-0a69-46f2-8eed-54df3e99ef63))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "P9") (unit 1)
         )
@@ -3484,7 +3484,7 @@
     (pin "4" (uuid 5f604d5a-9766-4536-bd79-aeda9f2a85da))
     (pin "3" (uuid 32117b7b-a5bf-4f54-9e6a-842ec625d3f3))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "P10") (unit 1)
         )
@@ -3492,7 +3492,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 243.84 158.75 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 243.84 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000058b4f1ed)
     (property "Reference" "#PWR041" (at 243.84 154.94 0)
@@ -3509,7 +3509,7 @@
     )
     (pin "1" (uuid ebf97ac2-917a-4d70-8517-5a4852c3a5a4))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR041") (unit 1)
         )
@@ -3535,7 +3535,7 @@
     (pin "2" (uuid 147f595e-40d2-4631-a48c-a1b24af49dcd))
     (pin "1" (uuid 1cfe562c-7c8d-42eb-b2e2-70c5536963f9))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "D3") (unit 1)
         )
@@ -3561,7 +3561,7 @@
     (pin "2" (uuid 1fc0f84d-79d7-4e55-9233-af4e05d4d19e))
     (pin "1" (uuid 34f07069-405e-4b78-a7f4-236d203c1e4d))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "D4") (unit 1)
         )
@@ -3587,7 +3587,7 @@
     (pin "1" (uuid cee0dabe-c52d-456f-b911-aff75c7939f5))
     (pin "2" (uuid a478c1d9-ff3c-4ea8-b18c-c955f1443923))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "R29") (unit 1)
         )
@@ -3613,7 +3613,7 @@
     (pin "2" (uuid e07651b9-ad59-411b-9280-ab635cac61ea))
     (pin "1" (uuid a6c5908e-b4f3-4b2e-a958-19da8e8c8970))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "R28") (unit 1)
         )
@@ -3621,7 +3621,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 128.27 97.79 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 128.27 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000058b72319)
     (property "Reference" "#PWR042" (at 128.27 93.98 0)
@@ -3638,7 +3638,7 @@
     )
     (pin "1" (uuid e3426562-47f8-455e-9f65-356772c6225c))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR042") (unit 1)
         )
@@ -3665,7 +3665,7 @@
     (pin "2" (uuid cdc24a9f-7fe8-4d26-9cc0-7ca9adc9ca18))
     (pin "3" (uuid c25f279c-efac-4d31-b190-a6f5e6c84b2a))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "X1") (unit 1)
         )
@@ -3691,7 +3691,7 @@
     (pin "1" (uuid 3af0a40d-a0d0-4b05-b7df-9c8fc9ae2dea))
     (pin "2" (uuid cf2d4251-a49b-4b7d-9c90-0b2145b0a005))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C30") (unit 1)
         )
@@ -3717,7 +3717,7 @@
     (pin "1" (uuid a75075e6-29e8-4f4e-a930-b9aadec6a2f6))
     (pin "2" (uuid 2040a6a8-ad76-47c5-bf39-e7a976fcb84f))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C31") (unit 1)
         )
@@ -3725,7 +3725,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 274.32 34.29 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 274.32 34.29 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000058eaa03c)
     (property "Reference" "#PWR043" (at 274.32 30.48 0)
@@ -3742,7 +3742,7 @@
     )
     (pin "1" (uuid 4d0bd623-b6a9-4959-bfe6-493a65e55fdf))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR043") (unit 1)
         )
@@ -3750,7 +3750,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 274.32 19.05 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 274.32 19.05 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000058eab2c3)
     (property "Reference" "#PWR044" (at 274.32 15.24 0)
@@ -3767,7 +3767,7 @@
     )
     (pin "1" (uuid bed74219-6491-4f25-adf3-18e650f79771))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR044") (unit 1)
         )
@@ -3797,7 +3797,7 @@
     (pin "2" (uuid 9b1d0b4b-366e-439b-8cbc-7860fa92d433))
     (pin "4" (uuid b4080cb3-3baf-4314-992a-b29cb2346e77))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "P11") (unit 1)
         )
@@ -3805,7 +3805,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 203.2 142.24 270) (unit 1)
+  (symbol (lib_id "power:VSS") (at 203.2 142.24 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000058ead3ab)
     (property "Reference" "#PWR0101" (at 199.39 142.24 0)
@@ -3822,7 +3822,7 @@
     )
     (pin "1" (uuid ca8cf670-c788-4d58-aaaf-bf104a05b458))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0101") (unit 1)
         )
@@ -3848,7 +3848,7 @@
     (pin "1" (uuid 3f9cb210-b82e-42b4-b5d4-e40ca77149bc))
     (pin "2" (uuid 0162323d-7cae-49c8-bf6a-dd60c15e11a8))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "R30") (unit 1)
         )
@@ -3874,7 +3874,7 @@
     (pin "2" (uuid ca8d2e30-b676-49ee-9f99-90b4d4d86919))
     (pin "1" (uuid a76c556f-827c-4dfa-bc94-73c1b6c270ee))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C76") (unit 1)
         )
@@ -3882,7 +3882,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 60.96 144.78 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 60.96 144.78 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000058edabc2)
     (property "Reference" "#PWR0114" (at 60.96 140.97 0)
@@ -3899,7 +3899,7 @@
     )
     (pin "1" (uuid 62671f3d-429e-4467-ac36-424b3090e2bc))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0114") (unit 1)
         )
@@ -3925,7 +3925,7 @@
     (pin "2" (uuid 806dd674-7f2f-430a-87c8-4ebcf96d221e))
     (pin "1" (uuid 562c86e8-adf7-4d8b-8628-338483694d13))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "R31") (unit 1)
         )
@@ -3951,7 +3951,7 @@
     (pin "2" (uuid 6b5bf450-1e07-4d0c-99f3-f1678e8d5861))
     (pin "1" (uuid 8b98d926-7ebd-45ce-bb94-89fdf7dddf49))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "R32") (unit 1)
         )
@@ -3959,7 +3959,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 187.96 39.37 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 187.96 39.37 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000594192a3)
     (property "Reference" "#PWR0115" (at 187.96 35.56 0)
@@ -3976,7 +3976,7 @@
     )
     (pin "1" (uuid 27beb4cb-1249-4a1c-b9ae-a06801573e24))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0115") (unit 1)
         )
@@ -4002,7 +4002,7 @@
     (pin "1" (uuid 6bf49120-8906-48c4-9f74-6a944834ffe4))
     (pin "2" (uuid 7738dd99-784c-406a-82ff-b3ea8b26b5bf))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "R33") (unit 1)
         )
@@ -4010,7 +4010,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VDD") (at 31.75 185.42 0) (unit 1)
+  (symbol (lib_id "power:VDD") (at 31.75 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005941ffde)
     (property "Reference" "#PWR0116" (at 31.75 189.23 0)
@@ -4027,7 +4027,7 @@
     )
     (pin "1" (uuid 9f14e384-8de4-4fca-8298-e45bba8e9896))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0116") (unit 1)
         )
@@ -4035,7 +4035,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 187.96 128.27 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 187.96 128.27 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059420c36)
     (property "Reference" "#PWR0117" (at 187.96 124.46 0)
@@ -4052,7 +4052,7 @@
     )
     (pin "1" (uuid 82aad701-9665-4f8a-98c0-c510c929f659))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0117") (unit 1)
         )
@@ -4078,7 +4078,7 @@
     (pin "1" (uuid 2580bd2d-4510-46ff-97c7-16792d1d344a))
     (pin "2" (uuid 8e1e8ef6-5723-47ad-9659-0a442cd8ac01))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C78") (unit 1)
         )
@@ -4104,7 +4104,7 @@
     (pin "2" (uuid fdfb625d-4fef-453d-b0c0-6591d4222238))
     (pin "1" (uuid dd76faf5-13b4-4387-b3f8-d39445a2053e))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C77") (unit 1)
         )
@@ -4130,7 +4130,7 @@
     (pin "2" (uuid d46a1e11-ffcc-4496-8729-3ee0a68dd7dd))
     (pin "1" (uuid d4d601e7-781d-4814-b98b-2a790a91b7c7))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "R34") (unit 1)
         )
@@ -4156,7 +4156,7 @@
     (pin "1" (uuid b4af9d9f-d3cc-497d-a59b-2583b660a22b))
     (pin "2" (uuid d93abd29-b688-4b5a-8935-13d14011135c))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C22") (unit 1)
         )
@@ -4164,7 +4164,7 @@
     )
   )
 
-  (symbol (lib_id "Power:+5V") (at 271.78 143.51 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 271.78 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b49801)
     (property "Reference" "#PWR0189" (at 271.78 147.32 0)
@@ -4181,7 +4181,7 @@
     )
     (pin "1" (uuid 67ad2daa-c3dc-479e-a5f5-d7afe5f41388))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0189") (unit 1)
         )
@@ -4207,7 +4207,7 @@
     (pin "1" (uuid fd6084bf-3cd5-438e-8edf-5e8b0653bad5))
     (pin "2" (uuid e4be4584-1317-4460-af8d-666eafe6c9b9))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C26") (unit 1)
         )
@@ -4233,7 +4233,7 @@
     (pin "2" (uuid 661dc05c-c74c-43db-a108-a93eca5aebb9))
     (pin "1" (uuid 0696a436-51b1-4715-9cf0-1668dd18b377))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C27") (unit 1)
         )
@@ -4241,7 +4241,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 275.59 114.3 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 275.59 114.3 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b50f0b)
     (property "Reference" "#PWR0159" (at 275.59 110.49 0)
@@ -4258,7 +4258,7 @@
     )
     (pin "1" (uuid f23d9edd-1aa0-498d-aa07-4d303ace4c44))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0159") (unit 1)
         )
@@ -4266,7 +4266,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 156.21 158.75 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 156.21 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b510cc)
     (property "Reference" "#PWR0160" (at 156.21 154.94 0)
@@ -4283,7 +4283,7 @@
     )
     (pin "1" (uuid b7ef9cd8-2787-4cc6-afc1-3010965ae19b))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0160") (unit 1)
         )
@@ -4291,7 +4291,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 161.29 158.75 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 161.29 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b5128d)
     (property "Reference" "#PWR0161" (at 161.29 154.94 0)
@@ -4308,7 +4308,7 @@
     )
     (pin "1" (uuid 88fbe06b-c649-4092-bcc3-f19663527c05))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0161") (unit 1)
         )
@@ -4316,7 +4316,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 166.37 158.75 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 166.37 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b5144e)
     (property "Reference" "#PWR0162" (at 166.37 154.94 0)
@@ -4333,7 +4333,7 @@
     )
     (pin "1" (uuid 34eb0580-4d0c-4c5a-96be-1960c53d67d8))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0162") (unit 1)
         )
@@ -4341,7 +4341,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 171.45 158.75 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 171.45 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b5160f)
     (property "Reference" "#PWR0163" (at 171.45 154.94 0)
@@ -4358,7 +4358,7 @@
     )
     (pin "1" (uuid 2fd13f30-6e8b-4384-81ad-ab8540b0c129))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0163") (unit 1)
         )
@@ -4383,7 +4383,7 @@
     )
     (pin "1" (uuid a7a0f19d-0e88-43dc-aebb-ef5a7ca02607))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0164") (unit 1)
         )
@@ -4408,7 +4408,7 @@
     )
     (pin "1" (uuid d07c7385-8b0f-4f7f-b6c4-ebcb901264f4))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0165") (unit 1)
         )
@@ -4433,7 +4433,7 @@
     )
     (pin "1" (uuid c60c0719-41d4-45be-b98b-05b848238ce1))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0166") (unit 1)
         )
@@ -4458,7 +4458,7 @@
     )
     (pin "1" (uuid 83cfbb45-810d-41b0-8e31-b93edc0fd712))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0167") (unit 1)
         )
@@ -4466,7 +4466,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 267.97 120.65 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 267.97 120.65 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b53fdc)
     (property "Reference" "#PWR0168" (at 267.97 116.84 0)
@@ -4483,7 +4483,7 @@
     )
     (pin "1" (uuid 4b7a274b-ee9f-4d2c-b55e-2cef73a3e243))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0168") (unit 1)
         )
@@ -4509,7 +4509,7 @@
     (pin "2" (uuid b11c14ad-2ec9-46f3-baf0-315a73063853))
     (pin "1" (uuid 928beba5-2af4-4e90-87a5-24b3c1a09e14))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C29") (unit 1)
         )
@@ -4517,7 +4517,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 151.13 158.75 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 151.13 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b597db)
     (property "Reference" "#PWR0169" (at 151.13 154.94 0)
@@ -4534,7 +4534,7 @@
     )
     (pin "1" (uuid 0be420d2-126b-4150-b748-7fde4568a269))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0169") (unit 1)
         )
@@ -4559,7 +4559,7 @@
     )
     (pin "1" (uuid fb3f40bb-d90a-4793-9f49-998beceba76b))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0170") (unit 1)
         )
@@ -4567,7 +4567,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VAA") (at 180.34 113.03 0) (unit 1)
+  (symbol (lib_id "power:VAA") (at 180.34 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b5a37a)
     (property "Reference" "#PWR0190" (at 180.34 116.84 0)
@@ -4584,7 +4584,7 @@
     )
     (pin "1" (uuid 4eee38f5-420c-44fd-89fa-f9d6eddbaeb9))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0190") (unit 1)
         )
@@ -4592,7 +4592,7 @@
     )
   )
 
-  (symbol (lib_id "Power:+5V") (at 83.82 172.72 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 83.82 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b5b554)
     (property "Reference" "#PWR0155" (at 83.82 176.53 0)
@@ -4609,7 +4609,7 @@
     )
     (pin "1" (uuid c8087866-ff19-491e-b722-f241fb10137d))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0155") (unit 1)
         )
@@ -4635,7 +4635,7 @@
     (pin "1" (uuid e4f04d26-6a4b-48ba-9b5c-922902d7a104))
     (pin "2" (uuid 35e50be6-8a82-42ac-b863-cf920f4d7597))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "L1") (unit 1)
         )
@@ -4643,7 +4643,7 @@
     )
   )
 
-  (symbol (lib_id "Power:+5V") (at 203.2 147.32 270) (unit 1)
+  (symbol (lib_id "power:+5V") (at 203.2 147.32 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b6172e)
     (property "Reference" "#PWR0191" (at 199.39 147.32 0)
@@ -4660,7 +4660,7 @@
     )
     (pin "1" (uuid 5d2b839d-560d-4939-8b81-0b76573e16ed))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0191") (unit 1)
         )
@@ -4686,7 +4686,7 @@
     (pin "1" (uuid df1c3b4f-efa0-4b13-a192-d2d313fdab33))
     (pin "2" (uuid 8bdb85f3-aab3-4ac6-9683-d87e07663d18))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C86") (unit 1)
         )
@@ -4694,7 +4694,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 280.67 114.3 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 280.67 114.3 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b64b6f)
     (property "Reference" "#PWR0171" (at 280.67 110.49 0)
@@ -4711,7 +4711,7 @@
     )
     (pin "1" (uuid 637972cb-8b82-4455-8cee-41038e95831c))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0171") (unit 1)
         )
@@ -4719,7 +4719,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 160.02 186.69 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 160.02 186.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b674f3)
     (property "Reference" "#PWR0172" (at 160.02 182.88 0)
@@ -4736,7 +4736,7 @@
     )
     (pin "1" (uuid 95426ff3-dc1e-4c0a-a088-a6a3fc5effcd))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0172") (unit 1)
         )
@@ -4744,7 +4744,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 134.62 186.69 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 134.62 186.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b67dc8)
     (property "Reference" "#PWR0173" (at 134.62 182.88 0)
@@ -4761,7 +4761,7 @@
     )
     (pin "1" (uuid abe296c8-08bd-4f19-8ce7-887e0992b7a3))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0173") (unit 1)
         )
@@ -4769,7 +4769,7 @@
     )
   )
 
-  (symbol (lib_id "Power:+5V") (at 125.73 176.53 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 125.73 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b6a06a)
     (property "Reference" "#PWR0174" (at 125.73 180.34 0)
@@ -4786,7 +4786,7 @@
     )
     (pin "1" (uuid c1810ff0-847d-4003-97b8-6dd748b8e48e))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0174") (unit 1)
         )
@@ -4794,7 +4794,7 @@
     )
   )
 
-  (symbol (lib_id "Power:+5V") (at 151.13 176.53 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 151.13 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b6adef)
     (property "Reference" "#PWR0175" (at 151.13 180.34 0)
@@ -4811,7 +4811,7 @@
     )
     (pin "1" (uuid 13413236-2785-476d-90d9-637d3b90a6ec))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0175") (unit 1)
         )
@@ -4819,7 +4819,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VAA") (at 270.51 115.57 0) (unit 1)
+  (symbol (lib_id "power:VAA") (at 270.51 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b6c826)
     (property "Reference" "#PWR0176" (at 270.51 119.38 0)
@@ -4836,7 +4836,7 @@
     )
     (pin "1" (uuid 8d669d01-68ef-4a37-a350-ccd35e7e67f2))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0176") (unit 1)
         )
@@ -4844,7 +4844,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VAA") (at 168.91 176.53 0) (unit 1)
+  (symbol (lib_id "power:VAA") (at 168.91 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b6d05f)
     (property "Reference" "#PWR0177" (at 168.91 180.34 0)
@@ -4861,7 +4861,7 @@
     )
     (pin "1" (uuid c745bca6-c675-4ef3-a7de-6f978b94ce5f))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0177") (unit 1)
         )
@@ -4886,7 +4886,7 @@
     )
     (pin "1" (uuid dcfaf8d6-4869-4fdc-a393-f6c43da5c2c5))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0178") (unit 1)
         )
@@ -4894,7 +4894,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VAA") (at 280.67 104.14 0) (unit 1)
+  (symbol (lib_id "power:VAA") (at 280.67 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b73ff6)
     (property "Reference" "#PWR0179" (at 280.67 107.95 0)
@@ -4911,7 +4911,7 @@
     )
     (pin "1" (uuid 29ec4c8b-61ee-4c2e-a0aa-5dadc6ab6875))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0179") (unit 1)
         )
@@ -4919,7 +4919,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VAA") (at 275.59 104.14 0) (unit 1)
+  (symbol (lib_id "power:VAA") (at 275.59 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b748cb)
     (property "Reference" "#PWR0180" (at 275.59 107.95 0)
@@ -4936,7 +4936,7 @@
     )
     (pin "1" (uuid 5180fb68-adc1-4ce5-a5fd-4b19c8160754))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0180") (unit 1)
         )
@@ -4962,7 +4962,7 @@
     (pin "1" (uuid 7710cc30-f58b-4f28-956d-26869894b421))
     (pin "2" (uuid 1ec20d10-1a32-4514-a24a-868ca470233b))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C88") (unit 1)
         )
@@ -4970,7 +4970,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 143.51 187.96 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 143.51 187.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b763ad)
     (property "Reference" "#PWR0181" (at 143.51 184.15 0)
@@ -4987,7 +4987,7 @@
     )
     (pin "1" (uuid e1676534-71c4-425e-9d35-402e20adf39c))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0181") (unit 1)
         )
@@ -5013,7 +5013,7 @@
     (pin "2" (uuid 423ea18a-735e-4053-90c6-6df790bc9f25))
     (pin "1" (uuid 1d11c8c7-6659-4306-a43d-429dce1c7396))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C90") (unit 1)
         )
@@ -5021,7 +5021,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 168.91 187.96 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 168.91 187.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b7677d)
     (property "Reference" "#PWR0182" (at 168.91 184.15 0)
@@ -5038,7 +5038,7 @@
     )
     (pin "1" (uuid accd9856-a51d-4491-8052-334587d95a43))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0182") (unit 1)
         )
@@ -5064,7 +5064,7 @@
     (pin "2" (uuid 73bb71ca-53ba-4968-98cf-f37b6c80275f))
     (pin "1" (uuid 148bb81b-14f3-47dd-a0ff-37cc6441e650))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C89") (unit 1)
         )
@@ -5072,7 +5072,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 151.13 187.96 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 151.13 187.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b776bf)
     (property "Reference" "#PWR0183" (at 151.13 184.15 0)
@@ -5089,7 +5089,7 @@
     )
     (pin "1" (uuid 0bcadce2-97c0-4039-9afc-acb15a3eb294))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0183") (unit 1)
         )
@@ -5115,7 +5115,7 @@
     (pin "1" (uuid b272a392-dde7-40ca-af19-cbca56c71578))
     (pin "2" (uuid 7e9d1ebf-b3c3-4977-8d46-887d761b3137))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "C87") (unit 1)
         )
@@ -5123,7 +5123,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 125.73 187.96 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 125.73 187.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b78069)
     (property "Reference" "#PWR0184" (at 125.73 184.15 0)
@@ -5140,7 +5140,7 @@
     )
     (pin "1" (uuid 30253fd3-51cc-4582-9a83-f87eaa7f2c9e))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0184") (unit 1)
         )
@@ -5167,7 +5167,7 @@
     (pin "2" (uuid ae9f7d62-7d8e-4942-881e-5982c593ebf3))
     (pin "3" (uuid 976cb5aa-26d4-4de1-82e1-25707274ddf1))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "U9") (unit 1)
         )
@@ -5194,7 +5194,7 @@
     (pin "2" (uuid 40c7fb27-28c0-4479-a3c9-ea4d88661e01))
     (pin "3" (uuid 7f97afb9-c6b0-4a58-a47a-804337103389))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "U10") (unit 1)
         )
@@ -5202,7 +5202,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VAA") (at 191.77 39.37 180) (unit 1)
+  (symbol (lib_id "power:VAA") (at 191.77 39.37 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059b8b21d)
     (property "Reference" "#PWR0188" (at 191.77 35.56 0)
@@ -5219,7 +5219,7 @@
     )
     (pin "1" (uuid 8e96d207-8a68-4fbe-a4f7-f62f2b23b830))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0188") (unit 1)
         )
@@ -5227,7 +5227,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 184.15 39.37 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 184.15 39.37 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059bbaa10)
     (property "Reference" "#PWR0118" (at 184.15 35.56 0)
@@ -5244,7 +5244,7 @@
     )
     (pin "1" (uuid 29fb7e74-6c1a-4f08-8175-32094782b713))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR0118") (unit 1)
         )
@@ -5252,7 +5252,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VDD") (at 31.75 67.31 0) (unit 1)
+  (symbol (lib_id "power:VDD") (at 31.75 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48cee2cf-1f43-4687-8cc7-c84b3f67eb3e)
     (property "Reference" "#PWR010" (at 31.75 71.12 0)
@@ -5269,7 +5269,7 @@
     )
     (pin "1" (uuid 2f60e074-be57-44a2-b55b-27e227851b2c))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR010") (unit 1)
         )
@@ -5277,7 +5277,7 @@
     )
   )
 
-  (symbol (lib_id "Power:VSS") (at 31.75 93.98 180) (unit 1)
+  (symbol (lib_id "power:VSS") (at 31.75 93.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c5adbe1-3815-47e4-814d-f875577c84b8)
     (property "Reference" "#PWR011" (at 31.75 90.17 0)
@@ -5294,7 +5294,7 @@
     )
     (pin "1" (uuid 56aa586d-d102-4f4a-a344-9261e5ddabc4))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794"
           (reference "#PWR011") (unit 1)
         )
@@ -5321,7 +5321,7 @@
       (uuid 509590d3-e182-4fe5-9828-04653dc3d8a5)
     )
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794" (page "2"))
       )
     )
@@ -5354,7 +5354,7 @@
       (uuid 756b54ba-507e-4c04-8143-4123736963d2)
     )
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794" (page "4"))
       )
     )
@@ -5387,7 +5387,7 @@
       (uuid 908f26a4-8e93-4299-a5e0-8c9dce2e4ae5)
     )
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794" (page "3"))
       )
     )
@@ -5420,7 +5420,7 @@
       (uuid 55004396-54ba-4349-b4e4-b91ee68aedd9)
     )
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794" (page "5"))
       )
     )

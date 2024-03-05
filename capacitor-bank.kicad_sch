@@ -1374,7 +1374,7 @@
     (pin "1" (uuid 88f73d9f-1477-4ab5-be43-652640af7359))
     (pin "2" (uuid 3ad2375b-c231-4c92-8c76-54d93d9daaf5))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C75") (unit 1)
         )
@@ -1400,7 +1400,7 @@
     (pin "2" (uuid 5abdedad-5b78-46a3-ab13-139cd5628fe2))
     (pin "1" (uuid 36d5df3e-93df-4480-9d2b-1d425bf7fc58))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C54") (unit 1)
         )
@@ -1426,7 +1426,7 @@
     (pin "1" (uuid 82397ee7-3a4d-4921-bcfa-0c2c982e3e37))
     (pin "2" (uuid 8479947e-01ce-4f22-80d0-e4ebff9a5120))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C41") (unit 1)
         )
@@ -1452,7 +1452,7 @@
     (pin "1" (uuid 99c2a3f6-d2b9-4d0f-8ba7-c50a220f3f26))
     (pin "2" (uuid e3b61b77-d9d4-47d6-bf4c-62358d5b891a))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C46") (unit 1)
         )
@@ -1478,7 +1478,7 @@
     (pin "2" (uuid 8451371d-2d36-43ea-806c-9f7f8894ee3e))
     (pin "1" (uuid ec12024d-5f6a-4d1b-8f0f-0d9b07711712))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C48") (unit 1)
         )
@@ -1504,7 +1504,7 @@
     (pin "1" (uuid b3a301cd-2a93-4fc8-a750-066ea9e90bde))
     (pin "2" (uuid accb5c59-a164-48ca-b75f-fbb91afb4f0b))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C51") (unit 1)
         )
@@ -1530,7 +1530,7 @@
     (pin "1" (uuid 64e0ac1e-fc5a-4626-9270-84437b69fd4b))
     (pin "2" (uuid 57e3370d-08c9-42b6-b660-434e07789916))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C33") (unit 1)
         )
@@ -1556,7 +1556,7 @@
     (pin "2" (uuid 0e6cf3b4-3035-428f-8d74-ca27999b642e))
     (pin "1" (uuid 8ad57246-5375-4823-918b-9a2e27709627))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C66") (unit 1)
         )
@@ -1582,7 +1582,7 @@
     (pin "2" (uuid 354b4e42-e1bd-412a-9289-aa015735ff77))
     (pin "1" (uuid c2df3be4-0b2b-4f8c-aa89-5592fbbf6a4b))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C69") (unit 1)
         )
@@ -1608,7 +1608,7 @@
     (pin "1" (uuid 41cc138e-6702-42b4-81f4-27018419b11c))
     (pin "2" (uuid 71545448-6ac1-451a-a803-fbb7e1f0dbd2))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C49") (unit 1)
         )
@@ -1634,7 +1634,7 @@
     (pin "2" (uuid 6bf66319-6c12-4a3e-81ce-29d8da10c6be))
     (pin "1" (uuid 19644084-cff4-41a9-b929-bee25e893ad2))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C60") (unit 1)
         )
@@ -1660,7 +1660,7 @@
     (pin "2" (uuid 1f22296b-3bd0-4bed-9939-e5da6881af14))
     (pin "1" (uuid 52632d5d-f500-485d-a970-e0d5552a837b))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C63") (unit 1)
         )
@@ -1686,7 +1686,7 @@
     (pin "1" (uuid 4b2013e2-34b1-40c8-a4dc-eba1a26032f9))
     (pin "2" (uuid 7069eb59-272e-4694-8fd2-f5070927fce3))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C13") (unit 1)
         )
@@ -1712,7 +1712,7 @@
     (pin "1" (uuid 55d92872-38e1-4074-8257-e16d1f7cdea3))
     (pin "2" (uuid 5929b364-d329-4b11-92ab-51ab8a040c17))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C40") (unit 1)
         )
@@ -1738,7 +1738,7 @@
     (pin "1" (uuid d860d5f8-e2d2-4310-ad93-7f2ae5159e81))
     (pin "2" (uuid b636a4e6-84ea-41fe-9af9-c3b7e2e5130a))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C32") (unit 1)
         )
@@ -1764,7 +1764,7 @@
     (pin "2" (uuid a56b0e29-f9a7-438a-9eca-3d02bd3dde5d))
     (pin "1" (uuid 6957de56-273c-4c81-aadb-0fa62a5e9ef5))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C67") (unit 1)
         )
@@ -1790,7 +1790,7 @@
     (pin "2" (uuid 49687a72-1de6-48f7-a294-ab468d7b19d0))
     (pin "1" (uuid 50b49089-1efc-44f3-870a-28d243ee07a5))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C55") (unit 1)
         )
@@ -1816,7 +1816,7 @@
     (pin "1" (uuid 2af5a5a2-7f4e-4b38-8fd6-c3ba9e726a8d))
     (pin "2" (uuid 6fc03f7b-738c-4467-8090-293649d84bc7))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C28") (unit 1)
         )
@@ -1842,7 +1842,7 @@
     (pin "2" (uuid 91dcbc32-c223-4439-94a9-df4b26432f41))
     (pin "1" (uuid f53a5e0b-3209-4b19-a174-dee2a3e06327))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C62") (unit 1)
         )
@@ -1868,7 +1868,7 @@
     (pin "2" (uuid bab89c65-b864-46df-9b35-d9e5a4217e82))
     (pin "1" (uuid 2e650eaa-e32d-4a55-b552-33a7cd68c658))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C74") (unit 1)
         )
@@ -1894,7 +1894,7 @@
     (pin "1" (uuid 331641a1-95c9-4955-91be-b36fcbc99a0f))
     (pin "2" (uuid 9edb80a6-03fe-48fe-9352-04efdbed33fe))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C44") (unit 1)
         )
@@ -1920,7 +1920,7 @@
     (pin "1" (uuid 2d65e1fb-cdb7-40ca-bd9c-5f4cfa6b5477))
     (pin "2" (uuid 5e81d764-4529-401a-af2e-b8ed03afed5f))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C37") (unit 1)
         )
@@ -1946,7 +1946,7 @@
     (pin "2" (uuid 424734a0-e356-4c73-abf9-d6f73f7c7515))
     (pin "1" (uuid 1d5e53b9-01fc-41bd-9b4c-58977d36c030))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C38") (unit 1)
         )
@@ -1972,7 +1972,7 @@
     (pin "1" (uuid 8420d92d-aa38-435f-90af-8d16448c71dc))
     (pin "2" (uuid ed3a209c-601b-49da-b36e-dd6b67725cfd))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C4") (unit 1)
         )
@@ -1998,7 +1998,7 @@
     (pin "1" (uuid def7449a-bd23-46ae-bfe7-88bb4aa6e63e))
     (pin "2" (uuid 44ed068b-57ea-4967-aca1-f26575e28386))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C42") (unit 1)
         )
@@ -2024,7 +2024,7 @@
     (pin "1" (uuid 1202a042-b88c-4743-a20e-e60ae0cbf47c))
     (pin "2" (uuid 8032e197-e3f0-4248-845c-806270c63907))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C53") (unit 1)
         )
@@ -2050,7 +2050,7 @@
     (pin "2" (uuid 98e9df9e-8bef-4dfc-86d1-2af7ab42c735))
     (pin "1" (uuid 75d1bd25-c62f-4425-b53e-93b6fdd9a637))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C57") (unit 1)
         )
@@ -2076,7 +2076,7 @@
     (pin "2" (uuid 35a029b8-39c7-4b1f-a610-3ca73cb3078b))
     (pin "1" (uuid 60961095-c4ff-496b-be63-ef1d834e19d1))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C79") (unit 1)
         )
@@ -2102,7 +2102,7 @@
     (pin "2" (uuid 3fe79c2a-c552-4a68-8163-138b4bc268be))
     (pin "1" (uuid f2fccc6d-8005-4b52-a3fc-efb17677cc05))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C34") (unit 1)
         )
@@ -2128,7 +2128,7 @@
     (pin "1" (uuid 2207472a-0235-44b8-be08-306f44c901f8))
     (pin "2" (uuid 75d313a6-7557-41d4-a0e4-937f67f9bea5))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C35") (unit 1)
         )
@@ -2154,7 +2154,7 @@
     (pin "2" (uuid 67eace16-3a47-4de7-b55c-120eda9cf357))
     (pin "1" (uuid b2862c28-2863-4c81-b8bb-aa108d446e04))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C80") (unit 1)
         )
@@ -2180,7 +2180,7 @@
     (pin "1" (uuid 668c5cdb-5ecc-4a2c-b4d1-9fff8801dd3c))
     (pin "2" (uuid 0d89ca7e-ebee-44c6-9ee6-4700129abbba))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C59") (unit 1)
         )
@@ -2206,7 +2206,7 @@
     (pin "2" (uuid afaf5765-7f10-4518-a130-7771cc23dd3e))
     (pin "1" (uuid 9a8f1b1b-2b83-4ccb-8db6-3b6c3d84b31e))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C36") (unit 1)
         )
@@ -2232,7 +2232,7 @@
     (pin "1" (uuid 1cd103fd-a780-480f-b5c0-271aba99f276))
     (pin "2" (uuid 7253ff58-919c-465c-bfde-3bc067ed1e31))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C85") (unit 1)
         )
@@ -2258,7 +2258,7 @@
     (pin "1" (uuid a0029076-f5e4-4900-8447-d7241ac1954e))
     (pin "2" (uuid 90c95ac2-f5fa-4954-ac46-c095b3326325))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C12") (unit 1)
         )
@@ -2284,7 +2284,7 @@
     (pin "1" (uuid dd5043bd-747f-4ce0-a881-434c3b6b0447))
     (pin "2" (uuid 008e8119-5be4-4d09-b4da-e1c5f81c090c))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C39") (unit 1)
         )
@@ -2310,7 +2310,7 @@
     (pin "1" (uuid 0cc53da7-7691-48ae-8939-d86934d23647))
     (pin "2" (uuid b1ce4aff-e1f4-43d7-8552-c43b58fa7587))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C5") (unit 1)
         )
@@ -2336,7 +2336,7 @@
     (pin "1" (uuid df49da8b-091d-4059-9a37-3c9d3d317c9e))
     (pin "2" (uuid 7f643bc5-43d8-443e-977f-6d42f320c75a))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C50") (unit 1)
         )
@@ -2362,7 +2362,7 @@
     (pin "2" (uuid bfd6cd30-9197-4d6f-a581-f5b0bbd91579))
     (pin "1" (uuid f69a2f1e-3257-42b7-b820-19559b9957ee))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C58") (unit 1)
         )
@@ -2388,7 +2388,7 @@
     (pin "1" (uuid 04b32928-ce87-4403-ac64-aab59770bae7))
     (pin "2" (uuid d8e44e03-e6c4-4c6a-aab7-d7ec1603ffe3))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C68") (unit 1)
         )
@@ -2414,7 +2414,7 @@
     (pin "2" (uuid af329ab4-6b2c-4826-bf2d-eaf195a730ce))
     (pin "1" (uuid 1eddd08f-d6fe-4c3f-a4b4-fe097f34e243))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C64") (unit 1)
         )
@@ -2440,7 +2440,7 @@
     (pin "1" (uuid 6dd62cb5-87a2-405a-82d3-ac24233805be))
     (pin "2" (uuid 25122d4e-dbd6-43dd-aec1-76395d43a3df))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C70") (unit 1)
         )
@@ -2466,7 +2466,7 @@
     (pin "1" (uuid 097c2c34-379f-4866-9a2d-6cf99603fb97))
     (pin "2" (uuid 17b640ca-e375-4f9e-9937-f0f7c9ca232d))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C83") (unit 1)
         )
@@ -2492,7 +2492,7 @@
     (pin "2" (uuid 80af7e3e-81df-4a14-9b63-95e6c10e2ef0))
     (pin "1" (uuid f1254f46-f703-4989-8906-7e2dbadd269b))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C71") (unit 1)
         )
@@ -2518,7 +2518,7 @@
     (pin "1" (uuid 7524eac5-4fcd-4c31-bfbc-d56eb05d63a4))
     (pin "2" (uuid 18424b68-c5b2-4c6b-ba1e-aded5fa78265))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C56") (unit 1)
         )
@@ -2544,7 +2544,7 @@
     (pin "2" (uuid 0300776e-ab81-42fc-ae9e-d3e61471e5f8))
     (pin "1" (uuid f7819d32-d257-400f-904c-4a80973d60fb))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C73") (unit 1)
         )
@@ -2570,7 +2570,7 @@
     (pin "1" (uuid 2a992c37-a890-477e-b1dc-a02a7f0ee63f))
     (pin "2" (uuid 56275e24-689f-4a31-aa09-1b0571580f0e))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C47") (unit 1)
         )
@@ -2596,7 +2596,7 @@
     (pin "1" (uuid 0182d310-47c0-42fa-baf3-fe6d3a0752ba))
     (pin "2" (uuid 8f78f5da-9eab-4874-acf0-94946c63a45c))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C81") (unit 1)
         )
@@ -2622,7 +2622,7 @@
     (pin "2" (uuid 9d4814ea-10e4-46c3-90e4-01a52ee789eb))
     (pin "1" (uuid a589886e-8e32-42f4-94a3-db0cfa66dbfe))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C43") (unit 1)
         )
@@ -2648,7 +2648,7 @@
     (pin "2" (uuid 7eaf5bc0-300c-466d-8197-725a23a88ec2))
     (pin "1" (uuid 5b362b8c-dea4-4528-8d40-a2a5edbe9a0f))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C61") (unit 1)
         )
@@ -2674,7 +2674,7 @@
     (pin "2" (uuid 8e9d0e9b-3343-4f91-b3cc-4291f51e35f7))
     (pin "1" (uuid 50875c01-8abe-4238-b07e-c53d6a3979f0))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C65") (unit 1)
         )
@@ -2700,7 +2700,7 @@
     (pin "2" (uuid 765891dd-d346-4b45-a66f-2ebeafcd003a))
     (pin "1" (uuid ec8c980e-0267-4600-b119-addcabfa1f71))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C52") (unit 1)
         )
@@ -2726,7 +2726,7 @@
     (pin "1" (uuid c8b7d979-ae1e-4932-a2eb-a80e9647bcb9))
     (pin "2" (uuid a72b8fc1-f4f7-43de-987a-cd4a4a29cf89))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C72") (unit 1)
         )
@@ -2752,7 +2752,7 @@
     (pin "1" (uuid 88494ca0-286b-4e1e-bff8-93b08e271645))
     (pin "2" (uuid 1ffe1aca-ceb1-432e-a665-9d7b21fcdded))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C84") (unit 1)
         )
@@ -2778,7 +2778,7 @@
     (pin "2" (uuid 9dda86b3-ca7c-473a-b2b7-a26a7bc44966))
     (pin "1" (uuid ef7ee89e-1b57-443c-87bd-58e33d879475))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C45") (unit 1)
         )
@@ -2804,7 +2804,7 @@
     (pin "1" (uuid 05869004-06c9-4226-9f7e-f7f97b104735))
     (pin "2" (uuid 7c718b26-f179-4398-b538-9992f5458a0a))
     (instances
-      (project "MINI VESC"
+      (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/53cb442b-752e-4b92-ae97-9542b4720982"
           (reference "C82") (unit 1)
         )
