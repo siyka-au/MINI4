@@ -1,4 +1,4 @@
-22650042412345861
+22651752111118934
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55251,6 +55251,13 @@ emi filter
 5
 5
 Footprints
+R_2512_6332Metric
+Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Footprints
 WSON-10-1EP_4x4mm_P0.8mm_EP2.6x3mm
 WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/lp2951-n.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 WSON NoLead
@@ -55262,8 +55269,8 @@ WSON-10-1EP_4x4mm_P0.8mm_EP2.6x3mm_ThermalVias
 WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/lp2951-n.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 WSON NoLead
 0
-15
-11
+24
+12
 Fuse
 FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
 Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf
