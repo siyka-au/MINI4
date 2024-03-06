@@ -391,7 +391,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MINI VESC.kicad_pro",
+    "filename": "mini-vesc.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -868,6 +868,14 @@
     [
       "eb4c094f-38d5-4c8e-a443-3cfe5211fcc9",
       "Half Bridge V"
+    ],
+    [
+      "bdbc759a-b717-4eff-99a0-9bf280e00dfc",
+      "PSU - Digital"
+    ],
+    [
+      "c70c1ef2-97a2-4249-b37b-9719b3c7377c",
+      "PSU - Analog"
     ]
   ],
   "text_variables": {}
