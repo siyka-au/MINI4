@@ -179,7 +179,7 @@
   (symbol (lib_id "Device:C") (at 38.1 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b5167b9-04a3-4b7a-a73d-fd8ad825820a)
-    (property "Reference" "C15" (at 37.465 44.45 0)
+    (property "Reference" "C87" (at 37.465 44.45 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2µF" (at 38.735 49.53 0)
@@ -196,10 +196,10 @@
     (instances
       (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/bdbc759a-b717-4eff-99a0-9bf280e00dfc"
-          (reference "C15") (unit 1)
+          (reference "C87") (unit 1)
         )
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/c70c1ef2-97a2-4249-b37b-9719b3c7377c"
-          (reference "C15") (unit 1)
+          (reference "C89") (unit 1)
         )
       )
     )
@@ -208,7 +208,7 @@
   (symbol (lib_id "Device:C") (at 74.93 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ed92af4-6a78-48ae-84cb-b22ed27a22ce)
-    (property "Reference" "C16" (at 74.295 44.45 0)
+    (property "Reference" "C88" (at 74.295 44.45 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2µF" (at 75.565 49.53 0)
@@ -225,10 +225,10 @@
     (instances
       (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/bdbc759a-b717-4eff-99a0-9bf280e00dfc"
-          (reference "C16") (unit 1)
+          (reference "C88") (unit 1)
         )
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/c70c1ef2-97a2-4249-b37b-9719b3c7377c"
-          (reference "C16") (unit 1)
+          (reference "C90") (unit 1)
         )
       )
     )
@@ -237,7 +237,7 @@
   (symbol (lib_id "Regulator_Linear:MCP1700x-330xxTT") (at 55.88 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9d7564b-f03b-4a85-ac47-a86bd254b247)
-    (property "Reference" "U1" (at 52.07 34.925 0)
+    (property "Reference" "U9" (at 52.07 34.925 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MCP1700x-330xxTT" (at 50.8 33.02 0)
@@ -255,10 +255,10 @@
     (instances
       (project "mini-vesc"
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/bdbc759a-b717-4eff-99a0-9bf280e00dfc"
-          (reference "U1") (unit 1)
+          (reference "U9") (unit 1)
         )
         (path "/994820bf-9e2d-4c1b-8cdf-e9baf8707794/c70c1ef2-97a2-4249-b37b-9719b3c7377c"
-          (reference "U1") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
