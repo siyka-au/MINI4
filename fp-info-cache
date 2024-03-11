@@ -1,4 +1,4 @@
-22651752443607930
+22653462510332766
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55257,6 +55257,13 @@ resistor
 0
 2
 2
+Footprints
+Texas_YFX0012_DSBGA-12_1.76x1.91mm_Layout3x4_P0.4mm
+Texas Instruments, DSBGA, area grid, YZT, 1.86x1.36mm, 12 Ball, 3x4 Layout, 0.5mm Pitch, http://www.ti.com/lit/ds/symlink/txb0104.pdf, http://www.ti.com/lit/an/snva009ag/snva009ag.pdf
+BGA 12 0.5 R-XBGA-N12
+0
+24
+12
 Footprints
 WSON-10-1EP_4x4mm_P0.8mm_EP2.6x3mm
 WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/lp2951-n.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
